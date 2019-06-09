@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Introducing Hyde
+title: js设计模式
 description: >
-  Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content.
+    什么是闭包，闭包是js中一种机制，用于封闭私人变量，在很多的场景都能用的上闭包的机制
 author: author2
 noindex: true
 ---

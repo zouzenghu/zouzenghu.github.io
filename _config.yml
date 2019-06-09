@@ -47,6 +47,8 @@ author:
 
 # Add links to the sidebar.
 menu:
+   - title:             Blog
+    url:               /blog/
   - title:             ECMScript
     url:               /ecmascript/
 
@@ -63,7 +65,7 @@ menu:
     url:               /typescript/
   - title:             Vue
     url:               /vue/
-  - title:             About
+  - title:             关于我
     url:               /about/
    
 

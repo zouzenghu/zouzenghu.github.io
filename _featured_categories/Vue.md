@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Vue
-slug: Vue
+slug: vue
 menu: true
 order: 6
 description: >
