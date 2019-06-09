@@ -10,9 +10,9 @@
   {% if plugins contains 'jekyll-seo-tag' %}{% include head/seo-tag.html %}
   {% else %}{% include head/seo-fallback.html %}{% endif %}
 
-  {% if site.keywords.size > 0 or page.keywords.size > 0 %}
-    <meta name="keywords" content="zzh的个人博客，主要记录日常学习所思所悟，如ECMAScript，Vue，TypeScript，Webpack">
-  {% endif %}
+{% if site.keywords.size > 0 or page.keywords.size > 0 %}
+    <meta name="keywords" content="{{ page.keywords | default:site.keywords | join:',' }}">
+  {% endif %} 
 {% else %}
   <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
   <title>zzh</title>

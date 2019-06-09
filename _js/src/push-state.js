@@ -387,5 +387,6 @@ if (!window._noPushState && hasFeatures(REQUIREMENTS) && !isFirefoxIOS) {
     // If we have Custom Elements, use the WebComponent (it doesn't use ShadowDOM, so we are fine),
     // otherwise use the vanilla JS version.
     window._pushState = defineWebComponent(pushStateEl);
+    
   });
 }

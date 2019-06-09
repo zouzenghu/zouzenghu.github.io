@@ -1,3 +1,4 @@
+console.log('执行');
 const { readFileSync } = require("fs");
 const { resolve } = require("path");
 

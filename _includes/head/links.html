@@ -3,7 +3,7 @@
 {% assign lang = page.lang | default:site.lang | default:'en' %}
 <link rel="alternate" href="{{ page.url | absolute_url }}" hreflang="{{ lang | downcase | replace:'_','-' }}">
 
-<link rel="shortcut icon" href="{{ '/assets/icons/favicon.ico' | relative_url }}">
+<link rel="shortcut icon" href="{{ 'http://psgke2yt3.bkt.clouddn.com/img/sidebar-zzhbg.jpg' | relative_url }}">
 <link rel="apple-touch-icon" href="{{ '/assets/icons/icon.png' | relative_url }}">
 
 <link rel="manifest" href="{{ '/assets/manifest.json' | relative_url }}">
@@ -20,7 +20,7 @@
   This is to avoid hard-coding URLs in JS (where they can't be discovered by automated tools).
 -->{% endcomment %}
 <link rel="dns-prefetch" href="{{ '/'                                                                        | relative_url }}" id="_baseURL">
-<link rel="dns-prefetch" href="{{ '/assets/js/hydejack-8.4.0.js'                                             | relative_url }}" id="_hrefJS">
+<link rel="dns-prefetch" href="{{ '/assets/js/vender-8.4.0.js'                                             | relative_url }}" id="_hrefJS">
 <link rel="dns-prefetch" href="{{ '/sw.js'                                                                   | relative_url }}" id="_hrefSW">
 <link rel="dns-prefetch" href="{{ '/assets/bower_components/fontfaceobserver/fontfaceobserver.standalone.js' | relative_url }}" id="_hrefFFO">
 <link rel="dns-prefetch" href="{{ '/assets/bower_components/katex/dist/katex.min.js'                         | relative_url }}" id="_hrefKatexJS">
