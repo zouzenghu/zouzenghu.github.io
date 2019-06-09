@@ -1,7 +1,7 @@
 ---
 layout: list
-title: ECMScript
-slug: ECMScript
+title: ecmascript
+slug: ecmascript
 menu: true
 order: 1
 description: >
