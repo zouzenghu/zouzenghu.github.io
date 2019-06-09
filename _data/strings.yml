@@ -22,8 +22,8 @@ navigation:            Navigation
 social:                Social
 links:                 Links
 pagination:            Pagination
-newer:                 Newer
-older:                 Older
+newer:                 下一页
+older:                 上一页
 back:                  Back
 permalink:             Permalink
 permalink_icon:        icon-link
@@ -67,8 +67,8 @@ from_to_separator:     '–'
 # Date formats
 # ---------------------------------------------------------------------------------------
 date_formats:
-  post:                '%d %b %Y'
-  related_post:        '%d %b %Y'
+  post:                '%Y %b %d '
+  related_post:        '%Y %b %d  '
   list_group_by:       '%Y'
   list_entry:          '%d %b'
   project:             '%Y'

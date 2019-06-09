@@ -100,7 +100,7 @@ set `no_google_fonts` to `true`:
 ```yml
 # file: _config.yml
 hydejack:
-  no_google_fonts: true
+  no_google_fonts: false
 ```
 
 In this case, `font` and `font_heading` do not have to contain more than one font.

@@ -24,7 +24,7 @@ title:                 zzhBlog
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  zzh的个人博客，主要记录学习中的一些所思所悟
+  zzh的个人博客
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -63,7 +63,7 @@ menu:
     url:               /typescript/
   - title:             Vue
     url:               /vue/
-  - title:             关于我
+  - title:             about
     url:               /about/
    
 
