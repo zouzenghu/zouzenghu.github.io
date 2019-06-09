@@ -40,15 +40,13 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                 zouzenghu
+  name:                 zzhblog
   email:               17600136957@163.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-   - title:             Blog
-    url:               /blog/
   - title:             ECMScript
     url:               /ecmascript/
 
@@ -92,7 +90,7 @@ paginate_path:         /blog/page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/banner1.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
