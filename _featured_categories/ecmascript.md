@@ -1,6 +1,6 @@
 ---
 layout: list
-title: ecmascript
+title: ECMAScript
 slug: ecmascript
 menu: true
 order: 1

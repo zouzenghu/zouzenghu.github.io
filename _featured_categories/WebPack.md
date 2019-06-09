@@ -1,7 +1,7 @@
 ---
 layout: list
 title: WebPack
-slug: WebPack
+slug: webpack
 menu: true
 order: 2
 description: >

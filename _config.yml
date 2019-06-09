@@ -51,18 +51,18 @@ menu:
     url:               /ecmascript/
 
   - title:             WebPack
-    url:               /WebPack/
+    url:               /webpack/
 
   - title:             HtmlCSs
-    url:               /HtmlCss/
+    url:               /htmlcss/
 
   - title:             jQuery
-    url:               /jQuery/
+    url:               /jquery/
 
   - title:             TypeScript
-    url:               /TypeScript/
+    url:               /typescript/
   - title:             Vue
-    url:               /Vue/
+    url:               /vue/
   - title:             About
     url:               /about/
    

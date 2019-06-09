@@ -1,7 +1,7 @@
 ---
 layout: list
 title: HTML/CSS
-slug: HtmlCss
+slug: htmlcss
 menu: true
 order: 3
 description: >

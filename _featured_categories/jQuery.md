@@ -1,7 +1,7 @@
 ---
 layout: list
 title: jQuery
-slug: jQuery
+slug: jquery
 menu: true
 order: 4
 description: >

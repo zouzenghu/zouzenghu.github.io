@@ -1,7 +1,7 @@
 ---
 layout: list
 title: TypeScript
-slug: TypeScript
+slug: typescript
 menu: true
 order: 5
 description: >
