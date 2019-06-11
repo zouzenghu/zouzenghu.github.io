@@ -19,7 +19,7 @@ baseurl:               ''
 lang:                  zh-CN
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 zzh
+title:                 ZZH
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -28,7 +28,8 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  问渠那得清如许，为有源头活水来
+  不登高山，不知天之高也；
+  不临深溪，不知地之厚也
 
 # A list of keywords for your blog
 keywords:              [zzhBlog,Vue,ECMScript,TypeScript,Webpack,Html,Css]

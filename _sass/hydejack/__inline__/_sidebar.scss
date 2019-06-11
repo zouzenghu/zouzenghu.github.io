@@ -125,6 +125,13 @@ hy-drawer {
   > h2 {
     margin-top: 0;
   }
+  .h1 {
+    font-size: 1.2rem;
+  }
+  > p{
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
 }
 
 .sidebar-nav > ul {
@@ -134,10 +141,11 @@ hy-drawer {
 
 a.sidebar-nav-item {
   display: inline-block;
-  font-weight: var(--font-weight-heading);
   line-height: 1.75;
   padding: .25rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 1.1rem;
+  
 }
 
 
