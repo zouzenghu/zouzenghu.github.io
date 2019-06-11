@@ -164,7 +164,7 @@ hydejack:
   project_addons:      [about, newsletter, other]
 
   # If you do not use Google Fonts, set to `true`.
-  no_google_fonts:     false
+  no_google_fonts:     true
 
   # Set to `true` if you don't want to show an icon indicating external links
   no_mark_external:    true
@@ -196,14 +196,14 @@ hydejack:
 
   # You can set this to `true` if you don't want to set the `theme-color` meta tag,
   # This only affects the meta tag, not the color specified in the app manifest.
-  no_theme_color:      false
+  no_theme_color:      true
 
   # Set to `true` when building with the `--lsi` option
   use_lsi:             false
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      false
+  #cookies_banner:      true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   advertise:           false
