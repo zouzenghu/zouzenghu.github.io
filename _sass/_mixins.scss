@@ -1,10 +1,10 @@
 
 body {
   --code-font-family: #{$code-font-family};
-  font:14px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+
   --font-weight: #{$font-weight};
   --font-weight-bold: #{$font-weight-bold};
-  --font-weight-heading: bold;
+  --font-weight-heading: #{$font-weight-heading};
 
   --text-muted: #{$gray};
   --gray-bg: #{$gray-bg};

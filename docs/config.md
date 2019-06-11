@@ -118,7 +118,7 @@ In order to use the `list` layout add the following front-matter to a new markdo
 ~~~yml
 ---
 layout: list
-title:  shou
+title:  Home
 ---
 ~~~
 
@@ -333,7 +333,7 @@ add the `email`, `rss`, or `download` key, e.g.:
 author:
   social:
     email:    mail@qwtel.com
-    rss:      https://cdn.jsdelivr.net/gh/zouzenghu/cdn@6.0/feed.xml # make sure you provide an absolute URL
+    rss:      {{ site.url }}{{ site.baseurl }}/feed.xml # make sure you provide an absolute URL
     download: https://github.com/qwtel/hydejack/archive/v8.4.0.zip
 ~~~
 

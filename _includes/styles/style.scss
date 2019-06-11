@@ -1,6 +1,6 @@
 
-$font-family-heading: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
-$font-family:         12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+$font-family-heading: {{ site.font_heading | default:"Roboto Slab, Helvetica, Arial, sans-serif" }};
+$font-family:         {{ site.font         | default:"Noto Sans, Helvetica, Arial, sans-serif"   }};
 
 @import "variables";
 @import "my-variables";
@@ -88,12 +88,12 @@ $font-family:         12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5
     {% assign font_heading = font_heading | split:',' | shift | join:',' %}
   {% endunless %}
 
-  html { font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif; }
-  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading {  /*font-family: $font-family-heading;*/ }
+  html { font-family: {{ font | default:"serif" }}; }
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: {{ font_heading | default:"serif" }}; }
 
   .font-active {
-    font: $font-family;
-    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { /*font-family: $font-family-heading;*/ }
+    font-family: $font-family;
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: $font-family-heading; }
   }
 
   {% if site.hydejack.no_page_style %}

@@ -24,12 +24,8 @@ noindex: true
 Object.setPrototypeOf(child,father)
 
 ```
-
 ## 继承的几种方式
-* 组合式继承
-![w3m Screenshot](https://cdn.jsdelivr.net/gh/zouzenghu/cdn@6.1/assets/img/ecmascript/图像.png){:data-width="1920" data-height="1260"}
-        原型链图解
-{:.figure}
+
 ### 寄生式继承
 
 
