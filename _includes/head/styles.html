@@ -9,7 +9,7 @@
 {% if site.hydejack.no_inline_css or jekyll.environment == 'development' %}
   <link rel="stylesheet" href="{{ style_url | relative_url }}">
   <link rel="stylesheet" href="{{ icons_url | relative_url }}">
-  <!-- {% unless site.hydejack.no_google_fonts or site.no_google_fonts %}
+  {% unless site.hydejack.no_google_fonts or site.no_google_fonts %}
     <link rel="stylesheet" href="{{ fonts_url }}">
     <noscript>
       <style>
@@ -17,7 +17,7 @@
         h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: {{ font_heading }}!important; }
       </style>
     </noscript>
-  {% endunless %} -->
+  {% endunless %}
 {% else %}
   <style>
     {% capture to_scssify %}{% include styles/inline.scss %}{% endcapture %}
@@ -38,13 +38,13 @@
   <noscript>
     <link rel="stylesheet" href="{{ style_url | relative_url }}">
     <link rel="stylesheet" href="{{ icons_url | relative_url }}">
-    <!-- {% unless site.hydejack.no_google_fonts or site.no_google_fonts %}
+    {% unless site.hydejack.no_google_fonts or site.no_google_fonts %}
       <link rel="stylesheet" href="{{ fonts_url }}">
       <style>
         html { font-family: {{ font }}!important; }
         h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: {{ font_heading }}!important; }
       </style>
-    {% endunless %} -->
+    {% endunless %}
   </noscript>
 {% endif %}
 {% unless site.hydejack.no_page_style %}
