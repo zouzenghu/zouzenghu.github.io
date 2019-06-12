@@ -16,7 +16,7 @@ posts:                 Posts
 about:                 关于
 related_posts:         相关文章
 other_projects:        Other Projects
-comments:              Comments
+comments:              相关评论
 jump_to:               Jump to
 navigation:            Navigation
 social:                Social
@@ -24,7 +24,7 @@ links:                 Links
 pagination:            Pagination
 newer:                 下一页
 older:                 上一页
-back:                  Back
+back:                  退出
 permalink:             Permalink
 permalink_icon:        icon-link
 templates:             Templates (for web app)
