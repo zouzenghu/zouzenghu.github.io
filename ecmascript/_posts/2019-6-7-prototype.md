@@ -20,9 +20,19 @@ noindex: true
 {:.figure}
 
 在ES5中使用的prototype来实现继承
-```
+```js
 Object.setPrototypeOf(child,father)
 
+```
+```html
+<html>
+        <p>test</p>
+</html>
+```
+```css
+body{
+        background-color:red;
+}
 ```
 ## 继承的几种方式
 

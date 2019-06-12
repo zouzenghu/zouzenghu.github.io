@@ -57,7 +57,7 @@ error:
 # ---------------------------------------------------------------------------------------
 colon:                 ':'
 separator:             '|'
-category_start:        'in '
+category_start:        ' '
 category_spearator:    ' / '
 tag_start:             'on '
 tag_separator:         ', '
@@ -70,10 +70,10 @@ date_formats:
   post:                '%Y %b %d '
   related_post:        '%Y %b %d  '
   list_group_by:       '%Y'
-  list_entry:          '%d %b'
+  list_entry:          '%b %d '
   project:             '%Y'
   projects_group_by:   '%Y'
-  resume:              '%b %Y'
+  resume:              '%Y %b '
 
 
 # PRO Version

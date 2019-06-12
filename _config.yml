@@ -351,3 +351,22 @@ compress_html:
 
 sass:
   style:               compressed
+
+# 配置cdn统一路径
+cdnUrl: "https://cdn.jsdelivr.net/gh/zouzenghu/cdn@6.6/"
+
+comments :
+      gitalk: true
+      gitalk_clientID: '915d6e7513bcffed480f'
+      gitalk_Secret: '590c5093f3e12f5a92227b7a81d07edc00f4f3f7'
+      gitalk_repo: 'zouzenghu.github.io'
+      gitalk_owner: 'zouzenghu'
+      gitalk_admin: '[zouzenghu]'
+      id: 'window.location.pathname'
+      distractionFreeMode: true
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      comments: true
