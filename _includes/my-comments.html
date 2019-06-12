@@ -11,8 +11,8 @@ owner: '{{ site.comments.gitalk_owner }}',
 admin: '{{ site.comments.gitalk_admin }}',
 id: window.location.pathname, 
 distractionFreeMode: '{{ site.comments.distractionFreeMode }}'
-})
+});
 
-gitalk.render('disqus_thread')
+gitalk.render('disqus_thread');
 </script>
 {% endif %}
