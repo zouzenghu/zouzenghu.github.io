@@ -10,7 +10,7 @@ repo: '{{ site.comments.gitalk_repo }}',
 owner: '{{ site.comments.gitalk_owner }}',
 admin: '{{ site.comments.gitalk_admin }}',
 id: window.location.pathname, 
-distractionFreeMode: '{{ site.comments.distractionFreeMode }}'
+distractionFreeMode: true
 });
 
 gitalk.render('disqus_thread');
