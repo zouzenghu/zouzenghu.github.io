@@ -11,7 +11,7 @@
     data-background="{{ image.background | escape }}"
     {% if image.overlay %}data-overlay{% endif %}
   {% endunless %}
-  >
+  style="overflow: hidden">
   {{ content }}
   {% include body/comments.html %}
   {% include body/footer.html %}

@@ -21,7 +21,9 @@ noindex: true
 
 在ES5中使用的prototype来实现继承
 ```js
-Object.setPrototypeOf(child,father)
+function fun(){
+        return break;
+}
 
 ```
 ```html
@@ -34,6 +36,10 @@ body{
         background-color:red;
 }
 ```
+```css
+If you can make your skills into instinct , you will be unbeatable. Keep moving！
+```
+
 ## 继承的几种方式
 
 ### 寄生式继承
