@@ -353,7 +353,7 @@ sass:
   style:               compressed
 
 # 配置cdn统一路径
-cdnUrl: "https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.12/"
+cdnUrl: "https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.13/"
 
 comments :
       gitalk: true
