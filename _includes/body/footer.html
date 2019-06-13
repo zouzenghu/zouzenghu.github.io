@@ -25,27 +25,23 @@
   <script src="{{site.cdnUrl}}assets/js/search.js"></script>
   <script>
   (function(){
-    var searchInput= document.getElementsByClassName('serch-input')[0];
-    var searchContent= document.getElementById('results-container')
+    var searchContent= document.getElementById('results-container');
     var searchInputVal=document.getElementById('search-input');
     SimpleJekyllSearch({
-      searchInput:document.getElementById('search-input'),
+      searchInput:searchInputVal,
       resultsContainer: searchContent,
       json: '/search.json',
       searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>', 
-      noResultsText: '没有搜索到您想要的文章', 
+      noResultsText: '<li style="padding:1rem;">没有搜索到您想要的文章</li>', 
       limit: 7, 
       fuzzy: true 
     });
-    var menuWidth= parseFloat(getComputedStyle(document.getElementById('_menu')).width);
-    searchInput.style.width=parseFloat(getComputedStyle(document.getElementById('_main')).width)-menuWidth-50+'px';
-    searchInputVal.onblur=function(){
-      this.value='';
-      searchContent.style.display=none;
-    }
-    searchInputVal.onfocus=function(){
-      searchContent.style.display=block;
-    }
+     searchInputVal.onblur=function(e){
+      setTimeout(function() { 
+        this.value='';
+        searchContent.innerHTML='';
+       }, 200);
+     };
   })()
   </script>  
   

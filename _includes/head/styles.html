@@ -1,6 +1,8 @@
 <!--[if gt IE 8]><!---->
-{% capture style_url %}{{site.cdnUrl}}assets/css/vender-8.4.0.css{% endcapture %}
-{% capture icons_url %}{{site.cdnUrl}}assets/icomoon/style.css {% endcapture %}
+<!-- {% capture style_url %}{{site.cdnUrl}}assets/css/vender-8.4.0.css{% endcapture %}
+{% capture icons_url %}{{site.cdnUrl}}assets/icomoon/style.css {% endcapture %} -->
+{% capture style_url %}{% link assets/css/vender-8.4.0.css %}{% endcapture %}
+{% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
 {% capture fonts_url %}https://fonts.googleapis.com/css?family={{ google_fonts }}{% endcapture %}
 
 {% assign font_heading = site.font_heading | default:"Roboto Slab, Helvetica, Arial, sans-serif" %}
