@@ -3,16 +3,19 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
-var gitalk = new Gitalk({
-clientID: '{{ site.comments.gitalk_clientID }}',
-clientSecret: '{{ site.comments.gitalk_Secret }}',
-repo: '{{ site.comments.gitalk_repo }}',
-owner: '{{ site.comments.gitalk_owner }}',
-admin: '{{ site.comments.gitalk_admin }}',
-id: location.pathname, 
-distractionFreeMode: true
-});
+(function() {
+  "use strict";
+        var gitalk = new Gitalk({
+        clientID: '{{ site.comments.gitalk_clientID }}',
+        clientSecret: '{{ site.comments.gitalk_Secret }}',
+        repo: '{{ site.comments.gitalk_repo }}',
+        owner: '{{ site.comments.gitalk_owner }}',
+        admin: '{{ site.comments.gitalk_admin }}',
+        id: location.pathname, 
+        distractionFreeMode: true
+        });
+        gitalk.render('disqus_thread');
 
-gitalk.render('disqus_thread');
+})();
 </script>
 {% endif %}
