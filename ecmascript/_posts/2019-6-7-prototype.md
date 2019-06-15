@@ -220,9 +220,9 @@ function createObject(obj){
     function F(){};
     //注意：这只是一个浅拷贝不是深拷贝
     F.prototype=obj;
-    
+
     return new F();    
-    
+
 }
 
 let obj={
@@ -254,12 +254,10 @@ let child=Object.create(father,{
             this.name.push('小宋')
             console.log(this.name)
         },
-                       
+
    }
 })
 ```
-
-
 
 ### 寄生式继承
 
@@ -289,9 +287,9 @@ child.init();
 
 ```javascript
 function createObject(obj){
-     function F(){};
-     F.prototype=obj;
-     return new F();   
+     function F(){};
+     F.prototype=obj;
+     return new F();   
 }
 function create(child,father){
     let prototype=createObject(father.prototype);
@@ -393,8 +391,6 @@ Jack.Differential()//启动路虎差速锁功能
 * 如果重写了怎么调用父级的原型对象的方法呢                                                                  
 
 * ex：如toString方法  Object.prototype.toString.call(obj，参数列表)使用call改变this强行调用
-  
-  
 
 ### 总结：
 
@@ -409,11 +405,3 @@ Jack.Differential()//启动路虎差速锁功能
 * __proto__子级指向父级原型对象（内部属性）
 
 * 使用API获得父级原型对象：super ES6中     Object.getPrototypeOf(child)ES5中
-
-
-
-
-
-
-
-
