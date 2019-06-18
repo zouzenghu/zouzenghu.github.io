@@ -6,7 +6,6 @@ description: >
  以及代码的可维护性，代码的抽象和复用，极大的增加开发效率。
 author: author1
 image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.15/assets/img/ecmascript/v2-3e43f0767c79fb0c71770127c4c3675c_1200x500.jpg
-noindex: true
 ---
 
 说到继承我们就不得不谈一下原型链，在JS中只支持实现继承，不支持接口继承，而且其实现依赖主要是依靠原型链来实现的。其基本思想就是利用原型让一个引用类型继承另一个引用类型的方法和属性。

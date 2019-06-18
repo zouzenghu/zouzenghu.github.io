@@ -5,7 +5,6 @@ description: >
  什么是模块化：将一个复杂的程序依据一定的规则，进行功能拆分，封装成几个模块（文件），并进行组合在一起，块的内部数据/实现私有化，只是向外部暴露一些结构（方法）与外部其他模块通信
 author: author1
 image:  https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.17/assets/img/ecmascript/u=646855610,951597263&fm=26&gp=0.jpg
-noindex: true
 ---
 
 
