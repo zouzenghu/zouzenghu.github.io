@@ -70,7 +70,9 @@ image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.18/assets/img/ecmascript/1_FA
               }
           }
           xhr.open('GET','www.baidu.com',true);
-          xhr.send(null);//当发起请求后主线程将ajax函数出栈，并将ajax挂起，当ajax返回结果在再任务队列中放置一个事件，待主线程执行完其他任务回头检查，并判断是否到可执行时间
+          xhr.send(null);//当发起请求后主线程将ajax函数出栈，并将ajax挂起
+        //当ajax返回结果在再任务队列中放置一个事件，待主线程执行完其他任务回头检查，
+        //并判断是否到可执行时间
       }
       console.log(ajax())
       ```
@@ -99,7 +101,8 @@ image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.18/assets/img/ecmascript/1_FA
       for(let i=0,str='';i<1000;i++){
        console.log(str+=i);
        }
-      //这个例子印证了，定时器执行是跟设置的时间是没有关系的，必须等到主程序中所有任务完成，才会去任务队列中将setTimeout回调取出并执行
+      //这个例子印证了，定时器执行是跟设置的时间是没有关系的
+      //必须等到主程序中所有任务完成，才会去任务队列中将setTimeout回调取出并执行
       ```
 
 ### javaScript任务队列task queue
