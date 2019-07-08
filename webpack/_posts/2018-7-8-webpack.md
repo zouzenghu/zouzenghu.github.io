@@ -2,7 +2,7 @@
 layout: post
 title: webpack
 description: >
-webpack的作用是将复杂的项目分割，打包，合并，降级，来维护项目
+  webpack的作用是将复杂的项目分割，打包，合并，降级，来维护项目
   本质上，webpack是一个现代JavaScript应用程序的静态模块打包器当
   webpack处理应用程序时，它会递归地构建一个依赖关系图，其中包含应
   用程序需要的每个模块，然后将所有这些模块打包一个或多个bundle
