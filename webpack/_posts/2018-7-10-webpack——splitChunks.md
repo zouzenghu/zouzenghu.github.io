@@ -95,7 +95,7 @@ image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.16/assets/img/webpack/webpack
            //默认是async只对异步代码进行分片，all对同步异步代码都分片
            //initialt同步
              chunks: 'all',
-   ```
+   
 
            //文件达到多大才进行分片（30kb）
              minSize: 30000,
