@@ -4,7 +4,7 @@ title: webpack——splitChunks
 description: >
   在开发过程中或多或少的会使用类库辅助开发，但是这些类库是不会改变的，且也不需要改变的，如果说跟业务逻辑打包在一块的话，业务逻辑是经常要改变的而引入的库是不会改变的，所以就会造成一个问题，没办法利用上浏览器的缓存机制
 author: author1
-image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.16/assets/img/webpack/webpack.jfif
+image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.19/assets/img/webpack/webpack.jfif
 ---
 
 #### webpack——splitChunks

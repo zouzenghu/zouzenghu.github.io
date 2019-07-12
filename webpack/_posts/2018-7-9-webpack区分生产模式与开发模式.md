@@ -4,7 +4,7 @@ title: webpack——prod&dev
 description: >
   webpack将开发模式与生产模式区分开,开发模式下没必要产出文件需但要sourceMap等调错文件，可以提高编译速度，生产模式下没必要需要devServer或sourceMap等文件，区分开生产模式与开发模式可以极大地提高项目的可维护率
 author: author1
-image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.16/assets/img/webpack/webpack.jfif
+image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.19/assets/img/webpack/webpack.jfif
 ---
 #### webpack区分生产模式与开发模式
 

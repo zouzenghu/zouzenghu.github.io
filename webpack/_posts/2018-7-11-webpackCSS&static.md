@@ -4,7 +4,7 @@ title: CSS && 静态文件处理
 description: >
   webpack中关于css文件处理以及，图片字体文件等静态资源处理
 author: author1
-image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.16/assets/img/webpack/webpack.jfif
+image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.19/assets/img/webpack/webpack.jfif
 ---
 ### webpack——CSS && 静态文件处理
 

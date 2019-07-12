@@ -4,7 +4,7 @@ title: webpack——sourceMap
 description: >
   sourceMap是webpack中一个源码映射文件，它主要的作用是帮助我们调试bug使用的，sourceMap会自动生成一个文件将我们的源码映射进去
 author: author1
-image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.16/assets/img/webpack/webpack.jfif
+image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.19/assets/img/webpack/webpack.jfif
 ---
 
 ### 什么是sourceMap
