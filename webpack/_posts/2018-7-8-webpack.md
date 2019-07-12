@@ -7,7 +7,7 @@ description: >
   webpack处理应用程序时，它会递归地构建一个依赖关系图，其中包含应
   用程序需要的每个模块，然后将所有这些模块打包一个或多个bundle
 author: author1
-image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.16/assets/img/webpack/webpack.jfif
+image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.19/assets/img/webpack/webpack.jfif
 ---
 # Webpack
 ## webpack何是
