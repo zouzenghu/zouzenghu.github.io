@@ -18,7 +18,6 @@ image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.19/assets/img/webpack/webpack
   ```javascript
   //import引入指定，引入文件名，默认是1 num数字名，魔法注释
   //import (/*webpackChunkName:"jqeury"*/,'jqeury');
-  
   //实现懒加载行为
   function getCompoent(){
       return import (/*webpackChunkName:"jquery"*/'jqueyr')
