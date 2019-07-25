@@ -11,7 +11,7 @@ image: https://cdn.jsdelivr.net/gh/zouzenghu/cdn@7.15/assets/img/ecmascript/v2-3
 
 ### let
 
-- 在 ES6 中新增了一个 let 命令用于声明变量，用法类似于 var 但是只在块级作用域中有效
+- 在 ES6 中新增了一个 let 命令用于声明变量，用法类似于 var    
 
 ```javascript
 {
